@@ -9203,7 +9203,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .resume-wrapper-inner {
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .resume-header {
@@ -9213,7 +9213,9 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .resume-header .picture {
-    width: 220px;
+    width: 204px;
+    object-fit: cover;
+    object-position: center calc(0% - 20px);
 }
 
 .resume-header .name {
@@ -9302,8 +9304,8 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 
 .resume-company-name {
     color: #58677c;
-    font-size: 0.875rem;
-    font-weight: 500;
+    font-size: 0.95rem;
+    font-weight: 600;
 }
 
 .resume-position-time {
